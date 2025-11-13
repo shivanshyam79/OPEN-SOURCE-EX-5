@@ -7,7 +7,7 @@
 ### STEP 2 : crontab -u harry -e
 ### STEP 3 : # Run daily at 12:30 PM
 30 12 * * * /bin/echo "hello"
-
+ 
 # Run every 2 minutes
 */2 * * * * /bin/echo "Hi I'm Running"
 
